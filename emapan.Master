@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="emapan.master.cs" Inherits="HomePage.emapan" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+   
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height:100px;
+            background-color: #0099FF;
+        }
+       
+        .auto-style3 {
+            width: 175px;
+            
+            margin-left: 73px;
+            margin-top: 10px;
+            
+        }
+        .auto-style5 {
+            width: 100px;
+           
+            margin-left: 35px;
+            padding-bottom:1em;
+            float: left;
+            height: 116px;
+        }
+        .auto-style6 {
+            width: 420px;
+            
+            text-align: center;
+            font-size:xx-large;
+            font-style:oblique;
+            line-height:48px;
+            padding-bottom:0.5em;
+                padding-top:0.5em;
+            
+        }
+        
+        
+        .auto-style7 {
+            width: 100%;
+            height: 49px;
+            background-color: #0099FF;
+        }
+        .auto-style{
+            width:5%;
+            height:30px;
+        }
+        
+        
+        .auto-style8 {
+            width: 84px;
+            height: 27px;
+        }
+        .auto-style9 {
+            width: 191px;
+        }
+        .auto-style10 {
+            width: 74px;
+            height: 32px;
+        }
+        
+        
+        .auto-style11 {
+            width: 915px;
+            text-align: center;
+        }
+        
+        
+        .auto-style12 {
+            width: 358px;
+        }
+        
+        
+        </style>
+       <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+             <header>
+
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style12" >
+                    <img class="auto-style3" src="images/Seal_of_Karnataka.png" /></td>
+                <td  >   <h2 class="auto-style6" style="color:white" >Department of Legal Metrology<br /> Government of Karnataka</h2></td>
+                  <td > <img  class="auto-style5" src="images/EMP1.JPG" /> </td></tr>
+        </table>
+
+    </header>
+        </div>
+        <!-- Main Content Placeholder -->
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+
+
+
+
+
+
+
+
+
+
+
+        </asp:ContentPlaceHolder>
+        </div>
+        <!-- Main Content Placeholder -->
+         <!-- Footer -->
+        <footer>
+
+            <table class="auto-style7">
+                <tr>
+                    <td class="auto-style9" style="color:white">Designed & Hosted By:
+                        <br />
+                        <img class="auto-style8" src="images/niclog.png" /><img alt="dig" class="auto-style10" src="images/digindlog.png" />
+                    </td>
+                    <td class="auto-style11" style="color:white">Site Content Managed By : Department of Legal Metrology</td>
+                    <td></td>
+                </tr>
+            </table>
+
+        </footer>
+         <!-- Footer -->
+    </form>
+</body>
+</html>
